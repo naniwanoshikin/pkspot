@@ -68,8 +68,8 @@ ms:
 seed:
 	docker-compose exec api rails db:seed
 
-# デプロイ
-de:
+# プッシュ
+p:
 	git add .
 	git commit -m "first commit"
 	git push
